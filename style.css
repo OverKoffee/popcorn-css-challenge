@@ -1,5 +1,45 @@
-/*COLORS:
+/* COLORS:
 Header background - #FFDBAA
-button - #805215
+Button - #805215
 Header Text - #553100
-Main background - #D4A76A*/
+Main background - #D4A76A
+*/
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #FFDBAA;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #553100;
+}
+
+main {
+  background-color: #D4A76A;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: #805215;
+  color: white;
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
