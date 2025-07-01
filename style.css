@@ -8,13 +8,55 @@ Main background - #D4A76A
 header {
   background-color: #FFDBAA;
   color: #553100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
 }
 
-button {
-  color: #805215;
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navbutton {
+  background-color: #805215;
+  color: white;
+  max-width: 80px;
+  font-weight: bold;
+}
+
+.box-button {
+  background-color: #805215;
+  color: white;
+  max-width: 120px;
+  padding: 10px 20px;
+  font-weight: bold;
 }
 
 main {
   background-color: #D4A76A;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.about-box {
+  background-color: whitesmoke;
+  padding: 20px 50px;
+  border: 1px solid black;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.flights-box {
+  background-color: whitesmoke;
+  padding: 20px 50px;
+  border: 1px solid black;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 150px;
+  text-align: center;
+}
